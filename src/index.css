@@ -46,9 +46,9 @@
 }
 
 #login-card {
-    position: absolute;
-    top: calc(50vh-144px);
-    left: calc(50vw-210px);
+    position: relative;
+    top: calc(50vh - 144px);
+    left: calc(50vw - 210px);
     padding-top: 36px;
     padding-bottom: 66px;
     width: 420px;
@@ -62,4 +62,37 @@
     /* Remove scrollbar space  */
     background: transparent;
     /* Optional: just scrollbar invisible */
+}
+
+.google {
+    background-color: #4285f4;
+    color: white;
+}
+
+.facebook {
+    background-color: #3b5998;
+}
+
+.login-button {
+    color: white;
+    border-radius: 8px;
+    display: inline-block;
+    padding: 12px;
+    cursor: pointer;
+}
+
+#loading-container {
+    background-color: rgb(255, 255, 255, 0.22);
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+}
+
+#loading-icon {
+    position: relative;
+    font-size: 66px;
+    left: calc(50vw - 33px);
+    top: calc(50vh - 22px)
 }
